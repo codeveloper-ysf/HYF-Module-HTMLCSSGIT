@@ -1,0 +1,269 @@
+* {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Vollkorn SC", serif;
+  background-color: #f3f3f3;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 18px;
+  line-height: 1.4em;
+}
+::selection {
+  background-color: rgb(95, 184, 100);
+}
+h1 {
+  text-shadow: 2px 2px 5px #757575;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin-bottom: 75px;
+}
+h3 {
+  color: #757575;
+}
+
+h4::first-letter {
+  font-size: 150%;
+}
+h1,
+h2,
+h3 {
+  letter-spacing: 0.2em;
+}
+p {
+  text-align: justify;
+}
+hr {
+  margin: 80px 0px 80px 0px;
+}
+.big-circle {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+  height: 80%;
+}
+.mid-circle {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  height: 60%;
+  transform: rotate(180deg);
+}
+.small-circle {
+  position: fixed;
+  bottom: 0px;
+  left: 20%;
+  z-index: -1;
+  height: 30%;
+}
+/* HEADER */
+.top {
+  height: 70px;
+  margin-top: 20px;
+}
+.nav {
+  float: right;
+  margin-right: 120px;
+}
+.nav ul li {
+  display: inline;
+  
+}
+.nav ul li a {
+  text-decoration: none;
+  color: #757575;
+  font-size: x-large;
+  padding: 0px 10px
+}
+.nav ul li a:hover {
+  font-weight: bold;
+  border-bottom: 2px solid #757575;
+}
+/* MAIN */
+.left-side {
+  width: 20%;
+  float: left;
+  margin: 80px 5px 0px 120px;
+  display: inline-block;
+  position: fixed;
+  -webkit-box-shadow: 0px 10px 24px 3px #757575;
+  -moz-box-shadow: 0px 10px 24px 3px #757575;
+  box-shadow: 0px 10px 24px 3px #757575;
+}
+.card {
+  text-align: center;
+  background-color: white;
+  height: 450px;
+  /* display: block; */
+}
+
+.card-top {
+  background-color: #c0e3e7;
+  padding-bottom: 10px;
+}
+.card-bottom {
+  margin-top: 35px;
+}
+.card img {
+  width: 50%;
+  animation: drop 1.5s ease;
+}
+
+.avatar {
+  padding-top: 10px;
+}
+.downloadButton {
+  outline: none;
+  background-color: #c0e3e7;
+  padding: 10px 35px 10px 35px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: black;
+  transition: all 0.2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+}
+.downloadButton:hover {
+  padding-bottom: 11px;
+  box-shadow: 2px 2px 3px #757575;
+  font-weight: bold;
+}
+.downloadButton:active {
+  position: relative;
+  top: 1px;
+}
+.right-side {
+  width: 60%;
+  float: right;
+  display: inline-block;
+  margin: 80px 120px 80px 5px;
+  background-color: white;
+
+  -webkit-box-shadow: 0px 10px 24px 3px #757575;
+  -moz-box-shadow: 0px 10px 24px 3px #757575;
+  box-shadow: 0px 10px 24px 3px #757575;
+}
+.portfolio {
+  padding: 40px;
+}
+.portfolio h2 {
+  text-align: center;
+  padding: 20px;
+}
+.others {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+.computer-skills {
+  float: left;
+}
+/* PROGRESS BAR */
+.progress-line-outside {
+  background: #c0e3e7;
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 15px;
+  width: 400px;
+}
+.progress-line-inside {
+  border-radius: 100px;
+  background: #ffffff;
+  height: 7px;
+}
+.progress-line-c {
+  width: 70%;
+}
+.progress-line-cplusplus {
+  width: 70%;
+}
+.progress-line-csharp {
+  width: 30%;
+}
+.progress-line-html5 {
+  width: 80%;
+}
+.progress-line-css3 {
+  width: 60%;
+}
+.progress-line-ps {
+  width: 70%;
+}
+.progress-value {
+  font-size: 15px;
+}
+.languages {
+  float: right;
+  margin-right: 200px;
+}
+.dot-filled {
+  height: 15px;
+  width: 15px;
+  background-color: #c0e3e7;
+  border: 2px solid #757575;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot-empty {
+  height: 15px;
+  width: 15px;
+  border: 2px solid #757575;
+  border-radius: 50%;
+  display: inline-block;
+}
+.contact {
+  text-align: center;
+  position: relative;
+}
+/* INPUTS */
+input[type="text"],
+textarea,
+input[type="email"] {
+  width: 60%;
+  padding: 12px;
+  border: 1px solid #c0e3e7;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #48959e;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #757575;
+}
+/* FOOTER */
+footer {
+  clear: both;
+  width: 100%;
+  padding: 1px 0px 1px 0px;
+}
+footer p {
+  text-align: center;
+  color: #757575;
+}
+/* ANIMATION */
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
