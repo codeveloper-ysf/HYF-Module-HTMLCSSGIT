@@ -1,9 +1,9 @@
 @font-face {
-  font-family: "courier-prime";
-  src: url(fonts/CourierPrime-Regular.ttf) format("truetype");
+  font-family: 'courier-prime';
+  src: url(fonts/CourierPrime-Regular.ttf) ;
 }
 @font-face {
-  font-family: "orbitron";
+  font-family: 'orbitron';
   src: url(fonts/Orbitron-VariableFont_wght.ttf) format("truetype") ;
 }
 * {
@@ -13,7 +13,7 @@
 }
 body {
   background-color: rgb(41, 73, 114);
-  font-family: "orbitron";
+  font-family: 'orbitron';
 }
 main {
   width: 80%;
@@ -46,7 +46,7 @@ h3 {
 p {
   text-align: justify;
   margin-top: 0;
-  font-family: "courier-prime";
+  font-family: 'courier-prime';
 }
 img {
   width: 100%;
