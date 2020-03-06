@@ -13,7 +13,7 @@
 }
 body {
   background-color: rgb(41, 73, 114);
-  font-family: "orbitron";
+  font-family: "orbitron" sans-serif;
 }
 main {
   width: 80%;
