@@ -1,6 +1,6 @@
 @font-face {
   font-family: "courier-prime";
-  src: url(fonts/CourierPrime-Regular.ttf) format("truetype");
+  src: url(/fonts/CourierPrime-Regular.ttf) format("truetype");
 }
 @font-face {
   font-family: "orbitron";
