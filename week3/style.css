@@ -314,7 +314,6 @@ footer {
 @media all and (max-width: 768px) {
   .wrapper img {
     margin-left: 0px;
-    border: 0;
   }
   #big-logo{
     display: none;
